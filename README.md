@@ -7,12 +7,16 @@ A campus issue management web application that allows students to submit their *
 - 🔐 **Authentication** using Firebase (Student & Admin roles)
 - 📝 **Students** can:
   - Submit complaints or concerns with categories and descriptions
-  - View the status of their submissions
+  - Receive email notifications when:
+    * Admin has viewed their submission
+    * Admin has resolved their submission
+  
 - 🛠️ **Admins** can:
   - View all complaints and concerns
-  - Update status: `Pending`, `In Progress`, `Resolved`
+  - Send mail personally to the student about the status of the complaint
   - Delete issues
   - View dashboard statistics (e.g., total complaints and total concerns)
+    
 - 💾 **Real-time database** powered by Firebase Firestore
 - 💻 **Responsive UI** with Tailwind CSS
 
@@ -23,6 +27,8 @@ A campus issue management web application that allows students to submit their *
 - **Frontend:** React.js
 - **Styling:** Tailwind CSS
 - **Authentication & Database:** Firebase (Auth & Firestore)
+- Email Notification system using EmailJS
+(Automatically sends a custom message to students when status is updated)
 
 ## 📸 Images
 
@@ -46,10 +52,16 @@ A campus issue management web application that allows students to submit their *
 <img width="1919" height="892" alt="image" src="https://github.com/user-attachments/assets/59513cdd-6f55-495b-8ac3-493091d09fd0" />
 
 ### Admin Dashboard (Complaints)
-<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/4ade5fd9-f513-4dd2-9287-cdc39df2436f" />
+<img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/a5fc6b8e-5e81-46b9-986e-168e78e441a7" />
 
 ### Admin Dashboard (Concern)
-<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/2b0c115e-b340-453e-ade0-f82bead47d86" />
+<img width="1919" height="895" alt="image" src="https://github.com/user-attachments/assets/28649c50-c636-40d5-86d7-97ef5d9afe2b" />
+
+### Mail (Viewed)
+<img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/e7054ed5-0b2c-4023-96e4-d134cb794391" />
+
+### Mail (Resolved)
+<img width="1919" height="892" alt="image" src="https://github.com/user-attachments/assets/9d389293-699d-4908-a3e2-6f14ce32cf59" />
 
 ## 🔧 Installation
 
