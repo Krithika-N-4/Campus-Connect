@@ -1,4 +1,3 @@
-// src/components/StudentLogin.js
 import React, { useState } from 'react';
 import { auth, db } from '../firebase/firebase';
 import { 
